@@ -7,13 +7,13 @@ import view.gui.Gui;
 import view.gui.GuiWindow;
 import view.gui.PaintCanvas;
 import view.interfaces.IGuiWindow;
-import view.interfaces.PaintCanvasBase;
 import view.interfaces.IUiModule;
+import view.interfaces.PaintCanvasBase;
 
 import java.awt.*;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         PaintCanvasBase paintCanvas = new PaintCanvas();
         IGuiWindow guiWindow = new GuiWindow(paintCanvas);
         IUiModule uiModule = new Gui(guiWindow);
