@@ -25,17 +25,15 @@ public enum EventName {
             return "CHOOSE SHADING TYPE";
         }
     },
-    CHOOSE_MOUSE_MODE {
+    CHOOSE_START_POINT_ENDPOINT_MODE {
         @Override
         public String toString() {
-            return "CHOOSE MOUSE MODE";
+            return "CHOOSE START POINT/ENDPOINT MODE";
         }
     },
     UNDO,
     REDO,
     COPY,
     PASTE,
-    DELETE,
-    GROUP,
-    UNGROUP
+    DELETE
 }

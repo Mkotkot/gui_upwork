@@ -1,6 +1,6 @@
 package model;
 
-public enum MouseMode {
+public enum StartAndEndPointMode {
     DRAW,
     SELECT,
     MOVE
